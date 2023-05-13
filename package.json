@@ -3,12 +3,12 @@
 	"name": "quoteorjoke",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "server.js",
 	"scripts": {
 		"start": "node server.js",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
-		"build": "npm install"
+		"build": "npm install",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
